@@ -1,0 +1,60 @@
+{
+  "avatars": [
+    {
+      "id": "avatar1",
+      "name": "Model 1",
+      "file": "avatars/avatar1.png",
+      "anchors": {
+        "bustL": [0.4167, 0.2750],
+        "bustR": [0.5833, 0.2750],
+        "hipL":  [0.3417, 0.5167],
+        "hipR":  [0.6583, 0.5167]
+      }
+    },
+    {
+      "id": "avatar2",
+      "name": "Model 2",
+      "file": "avatars/avatar2.png",
+      "anchors": {
+        "bustL": [0.4083, 0.2750],
+        "bustR": [0.5917, 0.2750],
+        "hipL":  [0.3250, 0.5167],
+        "hipR":  [0.6750, 0.5167]
+      }
+    }
+  ],
+  "garments": [
+    {
+      "id": "bra_rose",
+      "name": "Bralette Rose",
+      "file": "garments/bra_rose.png",
+      "category": "top",
+      "targets": ["bustL", "bustR"],
+      "points": [[0.25, 0.55], [0.75, 0.55]]
+    },
+    {
+      "id": "bra_black",
+      "name": "Bralette Black",
+      "file": "garments/bra_black.png",
+      "category": "top",
+      "targets": ["bustL", "bustR"],
+      "points": [[0.25, 0.55], [0.75, 0.55]]
+    },
+    {
+      "id": "brief_rose",
+      "name": "Brief Rose",
+      "file": "garments/brief_rose.png",
+      "category": "bottom",
+      "targets": ["hipL", "hipR"],
+      "points": [[0.075, 0.17], [0.925, 0.17]]
+    },
+    {
+      "id": "brief_black",
+      "name": "Brief Black",
+      "file": "garments/brief_black.png",
+      "category": "bottom",
+      "targets": ["hipL", "hipR"],
+      "points": [[0.075, 0.17], [0.925, 0.17]]
+    }
+  ]
+}
